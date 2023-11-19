@@ -1,4 +1,5 @@
-import menu from "../assets/menu.svg";
+
+import { Icon } from '@iconify/react';
 
 function Header() {
   return (
@@ -8,21 +9,8 @@ function Header() {
           <div className="text-3xl font-semi text-textColor">
             <a href="#">mix master</a>
           </div>
-          <div className="md:hidden">
-            <a href="#">
-              <svg
-                width="18"
-                height="12"
-                viewBox="0 0 18 12"
-                fill="white"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 12H18V10H0V12ZM0 7H18V5H0V7ZM0 0V2H18V0H0Z"
-                  fill="white"
-                />
-              </svg>
-            </a>
+          <div className="md:hidden text-orange text-2xl">
+          <Icon icon="ep:menu" />
           </div>
 
           <ul className="flex items-center text-textColor hidden md:flex">
