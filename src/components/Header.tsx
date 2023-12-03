@@ -1,19 +1,27 @@
-
-import { Icon } from '@iconify/react';
+import { Icon } from "@iconify/react";
+import { useState } from "react";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+  function handleClick() {
+    setIsOpen(!isOpen);
+  }
   return (
     <>
       <nav>
-        <div className="flex justify-between items-center px-10 py-5">
+        <div className="flex justify-between items-center px-10 py-5 flex-wrap">
           <div className="text-3xl font-semi text-textColor">
             <a href="#">mix master</a>
           </div>
-          <div className="md:hidden text-orange text-2xl">
-          <Icon icon="ep:menu" />
+          <div className="md:hidden text-orange text-2xl hover:cursor-pointer">
+            <Icon onClick={handleClick} icon="ep:menu" />
           </div>
 
-          <ul className="flex items-center text-textColor hidden md:flex">
+          <ul
+            className={`${
+              isOpen ? "" : "hidden"
+            } flex items-center text-textColor md:flex flex-col w-full md:w-auto md:flex-row gap-3`}
+          >
             <li className="mx-2">
               <a href="#">Home</a>
             </li>
