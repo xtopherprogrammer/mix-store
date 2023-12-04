@@ -5,12 +5,12 @@ function Hero() {
   return (
     <>
       <div className="md:flex md:justify-center gap-20 py-10">
-        <div className="text-5xl text-textColor text-center md:text-left  mb-6 mt-5 md:mb-6 md:mt-5">
+        <div className="text-5xl text-textColo text-center md:text-left  mb-6 mt-5 md:mb-6 md:mt-5">
           <h2>Clean Mix</h2>
           <h2>Pristine Sound</h2>
           <h2>Powerful Output</h2>
         </div>
-        <div className="flex items-center  justify-center text-6xl text-textColor md:flex-row md:text-7xl pb-10">
+        <div className="flex items-center  justify-center text-6xl text-textColo md:flex-row md:text-7xl pb-10">
           <Icon icon="material-symbols:speaker" />
           <Icon icon="lucide:mic-2" />
           <Icon icon="mdi:mixer-settings-vertical" />

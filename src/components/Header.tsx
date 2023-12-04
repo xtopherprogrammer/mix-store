@@ -1,16 +1,17 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   function handleClick() {
     setIsOpen(!isOpen);
   }
   return (
-    <>
-      <nav>
-        <div className="flex justify-between items-center px-10 py-5 flex-wrap">
-          <div className="text-3xl font-semi text-textColor">
+    <div>
+      <nav >
+        <div className="flex justify-between items-center px-10 py-5 flex-wrap w-full">
+          <div className="text-3xl font-semi text-black">
             <a href="#">mix master</a>
           </div>
           <div className="md:hidden text-orange text-2xl hover:cursor-pointer">
@@ -20,7 +21,7 @@ function Header() {
           <ul
             className={`${
               isOpen ? "" : "hidden"
-            } flex items-center text-textColor md:flex flex-col w-full md:w-auto md:flex-row gap-3`}
+            } flex items-center text-textColo md:flex flex-col w-full md:w-auto md:flex-row gap-3`}
           >
             <li className="mx-2">
               <a href="#">Home</a>
@@ -42,7 +43,7 @@ function Header() {
           </ul>
         </div>
       </nav>
-    </>
+    </div>
   );
 }
 export default Header;
