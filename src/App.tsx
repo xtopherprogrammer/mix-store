@@ -1,15 +1,11 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+// import HomPage from "./pages/HomPage";
+import LoginPage from "./pages/LoginPageContainer";
 
 function App() {
   return (
     <>
-      <Header />
-      <Hero />
-      <Card />
-      <Footer />
+      {/* <HomPage /> */}
+      <LoginPage />
     </>
   );
 }
