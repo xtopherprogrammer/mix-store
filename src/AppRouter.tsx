@@ -11,7 +11,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/login",
-    element: <LoginPageContainer/>,
+    element: <LoginPageContainer />,
   },
   // in this array just add other pages that you want to add here with the path and the element
 ]);
@@ -21,7 +21,5 @@ export const AppRouter = () => (
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-
 
 // going to main.tsx okay sir
