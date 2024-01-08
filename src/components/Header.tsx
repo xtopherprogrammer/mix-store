@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 import { useState } from "react";
 
-
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   function handleClick() {
@@ -9,7 +8,7 @@ function Header() {
   }
   return (
     <div>
-      <nav >
+      <nav>
         <div className="flex justify-between items-center px-10 py-5 flex-wrap w-full">
           <div className="text-3xl font-semi text-black">
             <a href="#">mix master</a>
@@ -38,7 +37,7 @@ function Header() {
               </button>
             </li>
             <li className="mx-2">
-              <a href="#">Sign in</a>
+              <a href="/login">Sign in</a>
             </li>
           </ul>
         </div>

@@ -3,7 +3,8 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 
-function HomPage() {
+// this should always have same name as the name of the file for best practice
+function HomPageContainer() {
   return (
     <>
       <Header />
@@ -14,4 +15,4 @@ function HomPage() {
   );
 }
 
-export default HomPage;
+export default HomPageContainer;

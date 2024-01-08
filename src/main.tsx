@@ -1,10 +1,16 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
+import "./index.css";
+import { AppRouter } from "./AppRouter.tsx";
+
+// try to run this code
+
+// okay sir
+// I just ran it now it's showing the homepage
+
+ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+    <AppRouter />
+  </React.StrictMode>
+);

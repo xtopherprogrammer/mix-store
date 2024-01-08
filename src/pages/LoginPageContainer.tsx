@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-function LoginPage() {
+function LoginPageContainer() {
   return (
     <>
       <Header />
@@ -32,4 +32,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default LoginPageContainer;
