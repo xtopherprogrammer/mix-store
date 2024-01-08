@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Route, createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomPageContainer from "./pages/HomPageContainer";
 import LoginPageContainer from "./pages/LoginPageContainer";
 
