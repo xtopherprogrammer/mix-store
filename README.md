@@ -25,3 +25,23 @@ Welcome to the Virtual Music Mix and Master Platform! This is an online service 
 * Icons Iconify
 * Build Tool: Vite
 * Language: TypeScript
+
+## Installation
+
+1. Clone the repository:
+`git clone https://github.com/xtopherprogrammer/mix-store-V1.git
+ cd mix-store-v1`
+* This command clones your repository and navigates into the project directory.
+
+2. Install dependencies:
+`npm install`
+* Installs all the dependencies needed for your projece, including Vite and any plugins
+
+
+3. Run the development server:
+`npm run dev`
+* This command starts the Vite development server, allowing you to view youu site locally with hot module replacement (HRM).
+
+4. Build the project for production:
+`npm run build`
+* This command triggers Vite's build process, creating an optimized production version of your site in the `dist` directory.
