@@ -33,14 +33,13 @@ Welcome to the Virtual Music Mix and Master Platform! This is an online service 
 https://github.com/xtopherprogrammer/mix-store.git
 ```
 
-* This command clones your repository and navigates into the project directory.
+* This command clones the repository and navigates into the project directory.
 
 2. Install dependencies:
 ```bash
 npm install
 ```
-* Installs all the dependencies needed for your projece, including Vite and any plugins
-
+* Installs all the dependencies needed for your project, including Vite and any plugins
 
 3. Run the development server:
 ```bash
