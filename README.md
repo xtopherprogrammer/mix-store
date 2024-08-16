@@ -29,6 +29,9 @@ Welcome to the Virtual Music Mix and Master Platform! This is an online service 
 ## Installation
 
 1. Clone the repository:
+```bash
+https://github.com/xtopherprogrammer/mix-store.git
+```
 
 * This command clones your repository and navigates into the project directory.
 
